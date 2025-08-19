@@ -1,10 +1,14 @@
 import Image from "next/image";
 import Navbar from "@/components/Navbar";
+import LandingPage from "@/components/LandingPage";
 
 export default function Home() {
   return (
-    <Navbar />
-    // <div className="mx-30 my-8">
-    // </div>
+    <div>
+      <Navbar />
+      <div className="mx-30">
+        <LandingPage />
+      </div>
+    </div>
   );
 }
