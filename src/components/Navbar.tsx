@@ -1,9 +1,13 @@
+import { Bars3Icon } from "@heroicons/react/24/outline";
+
 function Navbar() {
   return (
-    <div className="flex fixed w-full justify-between items-center px-30 py-8">
-      <a href="#">Gabriel Magdugo</a>
+    <div className="flex fixed w-full justify-between outline-1 items-center px-10 md:px-30 py-8">
+      <a href="#" className="hover:text-amber-300">
+        Gabriel Magdugo
+      </a>
       <div>
-        <ul className="flex gap-10 [&>li:hover]:text-amber-300">
+        <ul className="hidden md:flex gap-10 [&>li:hover]:text-amber-300">
           <li>
             <a href="#">About</a>
           </li>
@@ -13,11 +17,11 @@ function Navbar() {
           <li>
             <a href="#">Projects</a>
           </li>
-          <li>
-            <a href="#">Resume</a>
-          </li>
         </ul>
       </div>
+      <button className="md:hidden">
+        <Bars3Icon className="h-6 w-6 " />
+      </button>
     </div>
   );
 }
