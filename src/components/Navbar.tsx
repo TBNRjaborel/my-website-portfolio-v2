@@ -2,7 +2,7 @@ import { Bars3Icon } from "@heroicons/react/24/outline";
 
 function Navbar() {
   return (
-    <div className="flex fixed w-full justify-between outline-1 items-center px-10 md:px-30 py-8">
+    <div className="flex fixed bg-[#030420] w-full z-10 justify-between outline-1 items-center px-10 md:px-30 py-8">
       <a href="#" className="hover:text-amber-300">
         Gabriel Magdugo
       </a>
