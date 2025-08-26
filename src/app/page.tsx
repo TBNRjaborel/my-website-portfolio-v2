@@ -3,6 +3,7 @@ import Navbar from "@/components/Navbar";
 import LandingPage from "@/components/LandingPage";
 import About from "@/components/About";
 import Experience from "@/components/Experience";
+import Projects from "@/components/Projects";
 
 export default function Home() {
   return (
@@ -12,6 +13,7 @@ export default function Home() {
         <LandingPage />
         <About />
         <Experience />
+        <Projects />
       </div>
     </div>
   );

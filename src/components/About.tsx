@@ -55,10 +55,10 @@ function About() {
           </div>
         </div>
         <div className="flex flex-col w-full gap-10 my-20">
-          <h1 className="text-3xl md:text-4xl md:font-bold text-center ">
+          <h1 className="text-3xl md:text-4xl md:font-bold text-center mb-20">
             Tech Stack
           </h1>
-          <ul className=" grid grid-cols-7 gap-10">
+          <ul className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-7 gap-6 md:gap-10">
             <li className="flex flex-col items-center">
               <Image
                 src="/images/next-js.png"
@@ -67,7 +67,7 @@ function About() {
                 height={50}
                 className="invert hover:scale-110 transition-transform"
               />
-              <p className="text-center">Next.js</p>
+              <p className="text-center text-sm md:text-base mt-2">Next.js</p>
             </li>
             <li className="flex flex-col items-center">
               <Image
@@ -77,7 +77,7 @@ function About() {
                 height={50}
                 className="hover:scale-110 transition-transform"
               />
-              <p className="text-center">React.js</p>
+              <p className="text-center text-sm md:text-base mt-2">React.js</p>
             </li>
             <li className="flex flex-col items-center">
               <Image
@@ -87,7 +87,7 @@ function About() {
                 height={50}
                 className="hover:scale-110 transition-transform"
               />
-              <p className="text-center">Vite</p>
+              <p className="text-center text-sm md:text-base mt-2">Vite</p>
             </li>
             <li className="flex flex-col items-center">
               <Image
@@ -97,7 +97,7 @@ function About() {
                 height={50}
                 className="hover:scale-110 transition-transform"
               />
-              <p className="text-center">HTML</p>
+              <p className="text-center text-sm md:text-base mt-2">HTML</p>
             </li>
             <li className="flex flex-col items-center">
               <Image
@@ -107,7 +107,7 @@ function About() {
                 height={50}
                 className="hover:scale-110 transition-transform"
               />
-              <p className="text-center">Tailwind CSS</p>
+              <p className="text-center text-sm md:text-base mt-2">Tailwind CSS</p>
             </li>
             <li className="flex flex-col items-center">
               <Image
@@ -117,7 +117,7 @@ function About() {
                 height={50}
                 className="hover:scale-110 transition-transform"
               />
-              <p className="text-center">Javascript</p>
+              <p className="text-center text-sm md:text-base mt-2">Javascript</p>
             </li>
             <li className="flex flex-col items-center">
               <Image
@@ -127,7 +127,7 @@ function About() {
                 height={50}
                 className="hover:scale-110 transition-transform"
               />
-              <p className="text-center">Typescript</p>
+              <p className="text-center text-sm md:text-base mt-2">Typescript</p>
             </li>
             <li className="flex flex-col items-center">
               <Image
@@ -137,7 +137,7 @@ function About() {
                 height={50}
                 className="hover:scale-110 transition-transform"
               />
-              <p className="text-center">MySQL</p>
+              <p className="text-center text-sm md:text-base mt-2">MySQL</p>
             </li>
             <li className="flex flex-col items-center">
               <Image
@@ -147,7 +147,7 @@ function About() {
                 height={50}
                 className="hover:scale-110 transition-transform"
               />
-              <p className="text-center">Git</p>
+              <p className="text-center text-sm md:text-base mt-2">Git</p>
             </li>
             <li className="flex flex-col items-center">
               <Image
@@ -157,7 +157,7 @@ function About() {
                 height={50}
                 className="hover:scale-110 transition-transform"
               />
-              <p className="text-center">ASP.NET</p>
+              <p className="text-center text-sm md:text-base mt-2">ASP.NET</p>
             </li>
             <li className="flex flex-col items-center">
               <Image
@@ -167,7 +167,7 @@ function About() {
                 height={50}
                 className="hover:scale-110 transition-transform"
               />
-              <p className="text-center">C#</p>
+              <p className="text-center text-sm md:text-base mt-2">C#</p>
             </li>
             <li className="flex flex-col items-center">
               <Image
@@ -177,7 +177,7 @@ function About() {
                 height={50}
                 className="hover:scale-110 transition-transform"
               />
-              <p className="text-center">C</p>
+              <p className="text-center text-sm md:text-base mt-2">C</p>
             </li>
             <li className="flex flex-col items-center">
               <Image
@@ -187,7 +187,7 @@ function About() {
                 height={50}
                 className="hover:scale-110 transition-transform"
               />
-              <p className="text-center">C++</p>
+              <p className="text-center text-sm md:text-base mt-2">C++</p>
             </li>
             <li className="flex flex-col items-center">
               <Image
@@ -197,7 +197,7 @@ function About() {
                 height={50}
                 className="hover:scale-110 transition-transform"
               />
-              <p className="text-center">Supabase</p>
+              <p className="text-center text-sm md:text-base mt-2">Supabase</p>
             </li>
           </ul>
         </div>
