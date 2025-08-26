@@ -107,7 +107,9 @@ function About() {
                 height={50}
                 className="hover:scale-110 transition-transform"
               />
-              <p className="text-center text-sm md:text-base mt-2">Tailwind CSS</p>
+              <p className="text-center text-sm md:text-base mt-2">
+                Tailwind CSS
+              </p>
             </li>
             <li className="flex flex-col items-center">
               <Image
@@ -117,7 +119,9 @@ function About() {
                 height={50}
                 className="hover:scale-110 transition-transform"
               />
-              <p className="text-center text-sm md:text-base mt-2">Javascript</p>
+              <p className="text-center text-sm md:text-base mt-2">
+                Javascript
+              </p>
             </li>
             <li className="flex flex-col items-center">
               <Image
@@ -127,7 +131,9 @@ function About() {
                 height={50}
                 className="hover:scale-110 transition-transform"
               />
-              <p className="text-center text-sm md:text-base mt-2">Typescript</p>
+              <p className="text-center text-sm md:text-base mt-2">
+                Typescript
+              </p>
             </li>
             <li className="flex flex-col items-center">
               <Image
@@ -151,7 +157,7 @@ function About() {
             </li>
             <li className="flex flex-col items-center">
               <Image
-                src="/images/Net core.png"
+                src="/images/NET core.png"
                 alt=".net-icon"
                 width={50}
                 height={50}
