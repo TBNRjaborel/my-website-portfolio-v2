@@ -3,7 +3,7 @@ import experienceData from "@/data/experience";
 function Experience() {
   return (
     <div id="experience">
-      <div className="flex justify-center">
+      <div className="flex justify-center my-20">
         <h2 className="text-3xl md:text-4xl md:font-bold">Experience</h2>
       </div>
       <div>

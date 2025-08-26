@@ -24,14 +24,15 @@ function LandingPage() {
           />
         </h2>
         <div className="flex justify-center md:justify-start gap-5 mt-2 ">
-          <a
+          {/* <a
             href="#"
             className="text-left outline-1 p-3 hover:bg-white hover:text-black transition-colors "
           >
             Got a project?
-          </a>
+          </a> */}
           <a
-            href="#"
+            href="/MAGDUGO_RESUME_2025.pdf"
+            target="_blank"
             className="text-left outline-1 p-3 hover:bg-white hover:text-black transition-colors "
           >
             Download Resume
