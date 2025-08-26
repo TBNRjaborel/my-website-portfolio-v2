@@ -2,6 +2,7 @@ import Image from "next/image";
 import Navbar from "@/components/Navbar";
 import LandingPage from "@/components/LandingPage";
 import About from "@/components/About";
+import Experience from "@/components/Experience";
 
 export default function Home() {
   return (
@@ -10,6 +11,7 @@ export default function Home() {
       <div className="pt-32 md:pt-48 mx-30 md:mx-60">
         <LandingPage />
         <About />
+        <Experience />
       </div>
     </div>
   );
