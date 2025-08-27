@@ -10,9 +10,9 @@ function LandingPage() {
       className="flex flex-col-reverse gap-20 pt-30 md:flex-row md:pt-0 md:gap-40 items-center justify-around "
     >
       <div className="flex flex-col w-1/2 gap-5 text-center md:text-left">
-        <h1 className="text-3xl md:text-4xl font-bold">Hello.</h1>
-        <h2 className="text-3xl md:text-5xl">I'm Gabriel</h2>
-        <h2 className="text-4xl md:text-6xl font-bold">
+        <h1 className="text-3xl font-bold">Hello.</h1>
+        <h2 className="text-3xl md:text-4xl">I'm Gabriel</h2>
+        <h2 className="text-3xl md:text-4xl font-bold">
           <Typewriter
             words={["Software Developer", "Ads Manager", "Project Manager"]}
             loop={true}

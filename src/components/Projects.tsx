@@ -5,16 +5,20 @@ function Projects() {
   return (
     <div id="projects">
       <div className="flex flex-col items-center gap-2 my-20">
-        <span className="text-xs uppercase tracking-widest text-white/60">Featured work</span>
+        <span className="text-xs uppercase tracking-widest text-white/60">
+          Featured work
+        </span>
         <h2 className="text-3xl md:text-4xl md:font-bold">Projects</h2>
       </div>
-      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-6 lg:gap-8">
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-6 lg:gap-8 mb-20">
         {projects.map((project, index) => (
           <div key={index} className="group relative">
             <div className="absolute -inset-px rounded-2xl bg-gradient-to-br from-white/10 via-white/5 to-transparent opacity-0 group-hover:opacity-100 blur transition-opacity duration-500" />
             <div className="relative h-full rounded-2xl border border-white/10 bg-white/5 p-4 sm:p-6 backdrop-blur-sm shadow-md transition-all duration-300 group-hover:-translate-y-1 group-hover:border-white/20">
               <div className="flex items-start justify-between gap-4">
-                <h3 className="text-lg sm:text-xl font-semibold leading-snug">{project.title}</h3>
+                <h3 className="text-lg sm:text-xl font-semibold leading-snug">
+                  {project.title}
+                </h3>
                 <div className="flex items-center gap-2">
                   {project.github && (
                     <a
@@ -48,9 +52,13 @@ function Projects() {
                   )}
                 </div>
               </div>
-              <p className="mt-3 text-xs sm:text-sm text-white/80 text-justify">{project.description}</p>
+              <p className="mt-3 text-xs sm:text-sm text-white/80 text-justify">
+                {project.description}
+              </p>
               <div className="mt-5">
-                <h4 className="text-xs uppercase tracking-wider text-white/60">Tech Stack</h4>
+                <h4 className="text-xs uppercase tracking-wider text-white/60">
+                  Tech Stack
+                </h4>
                 <ul className="mt-2 flex flex-wrap gap-2">
                   {project.stack.map((tech, techIndex) => (
                     <li

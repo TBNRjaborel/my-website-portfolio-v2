@@ -113,7 +113,7 @@ function About() {
             </li>
             <li className="flex flex-col items-center">
               <Image
-                src="/images/Javascript.png"
+                src="/images/JavaScript.png"
                 alt="javascript-icon"
                 width={50}
                 height={50}
@@ -125,7 +125,7 @@ function About() {
             </li>
             <li className="flex flex-col items-center">
               <Image
-                src="/images/Typescript.png"
+                src="/images/TypeScript.png"
                 alt="typescript-icon"
                 width={50}
                 height={50}
