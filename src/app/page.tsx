@@ -1,20 +1,23 @@
-import Image from "next/image";
 import Navbar from "@/components/Navbar";
 import LandingPage from "@/components/LandingPage";
 import About from "@/components/About";
 import Experience from "@/components/Experience";
 import Projects from "@/components/Projects";
+import Contact from "@/components/Contact";
+import Footer from "@/components/Footer";
 
 export default function Home() {
   return (
-    <div>
+    <div className="relative">
       <Navbar />
-      <div className="pt-32 md:pt-48 mx-30 md:mx-60">
+      <main className="relative">
         <LandingPage />
         <About />
         <Experience />
         <Projects />
-      </div>
+        <Contact />
+      </main>
+      <Footer />
     </div>
   );
 }
