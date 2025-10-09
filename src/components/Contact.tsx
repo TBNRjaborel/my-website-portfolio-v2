@@ -40,7 +40,7 @@ function Contact() {
     {
       icon: <Linkedin className="w-5 h-5" />,
       label: "LinkedIn",
-      href: "https://linkedin.com/in/gabriel-magdugo",
+      href: "https://www.linkedin.com/in/gabriel-magdugo-762453215/",
     },
     {
       icon: <Facebook className="w-5 h-5" />,
@@ -105,17 +105,17 @@ function Contact() {
             <div>
               <h4 className="text-xl font-semibold mb-4">Follow Me</h4>
               <div className="flex gap-4">
-                  {socialLinks.map((social, index) => (
-                    <Button
-                      key={index}
-                      variant="outline"
-                      size="icon"
-                      className="hover:bg-primary/10 hover:border-primary/50 cursor-pointer"
-                      onClick={() => window.open(social.href, "_blank")}
-                    >
-                      {social.icon}
-                    </Button>
-                  ))}
+                {socialLinks.map((social, index) => (
+                  <Button
+                    key={index}
+                    variant="outline"
+                    size="icon"
+                    className="hover:bg-primary/10 hover:border-primary/50 cursor-pointer"
+                    onClick={() => window.open(social.href, "_blank")}
+                  >
+                    {social.icon}
+                  </Button>
+                ))}
               </div>
             </div>
 
@@ -152,14 +152,17 @@ function Contact() {
                     🚧 Under Construction
                   </Badge>
                   <p className="text-muted-foreground mb-6">
-                    I'm currently working on setting up the contact form functionality. 
-                    In the meantime, feel free to reach out to me directly via email or social media!
+                    I'm currently working on setting up the contact form
+                    functionality. In the meantime, feel free to reach out to me
+                    directly via email or social media!
                   </p>
                   <div className="space-y-3">
-                    <Button 
-                      variant="outline" 
+                    <Button
+                      variant="outline"
                       className="w-full cursor-pointer"
-                      onClick={() => window.open("mailto:magdugogabriel@gmail.com", "_blank")}
+                      onClick={() =>
+                        window.open("mailto:magdugogabriel@gmail.com", "_blank")
+                      }
                     >
                       <Mail className="w-4 h-4 mr-2" />
                       Send Email Directly
