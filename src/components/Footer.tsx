@@ -13,7 +13,7 @@ function Footer() {
     },
     {
       icon: <Linkedin className="w-5 h-5" />,
-      href: "https://linkedin.com/in/gabriel-magdugo",
+      href: "https://www.linkedin.com/in/gabriel-magdugo-762453215/",
       label: "LinkedIn",
     },
     {
@@ -45,30 +45,30 @@ function Footer() {
           <div className="space-y-4">
             <h3 className="text-lg font-semibold">Quick Links</h3>
             <nav className="space-y-2">
-               <a
-                 href="#about"
-                 className="block text-muted-foreground hover:text-foreground transition-colors cursor-pointer"
-               >
-                 About
-               </a>
-               <a
-                 href="#experience"
-                 className="block text-muted-foreground hover:text-foreground transition-colors cursor-pointer"
-               >
-                 Experience
-               </a>
-               <a
-                 href="#projects"
-                 className="block text-muted-foreground hover:text-foreground transition-colors cursor-pointer"
-               >
-                 Projects
-               </a>
-               <a
-                 href="#contact"
-                 className="block text-muted-foreground hover:text-foreground transition-colors cursor-pointer"
-               >
-                 Contact
-               </a>
+              <a
+                href="#about"
+                className="block text-muted-foreground hover:text-foreground transition-colors cursor-pointer"
+              >
+                About
+              </a>
+              <a
+                href="#experience"
+                className="block text-muted-foreground hover:text-foreground transition-colors cursor-pointer"
+              >
+                Experience
+              </a>
+              <a
+                href="#projects"
+                className="block text-muted-foreground hover:text-foreground transition-colors cursor-pointer"
+              >
+                Projects
+              </a>
+              <a
+                href="#contact"
+                className="block text-muted-foreground hover:text-foreground transition-colors cursor-pointer"
+              >
+                Contact
+              </a>
             </nav>
           </div>
 
@@ -77,16 +77,16 @@ function Footer() {
             <h3 className="text-lg font-semibold">Connect</h3>
             <div className="flex space-x-4">
               {socialLinks.map((social, index) => (
-                 <a
-                   key={index}
-                   href={social.href}
-                   target="_blank"
-                   rel="noopener noreferrer"
-                   className="w-10 h-10 bg-muted/50 rounded-lg flex items-center justify-center text-muted-foreground hover:text-foreground hover:bg-primary/10 transition-all duration-300 cursor-pointer"
-                   aria-label={social.label}
-                 >
-                   {social.icon}
-                 </a>
+                <a
+                  key={index}
+                  href={social.href}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="w-10 h-10 bg-muted/50 rounded-lg flex items-center justify-center text-muted-foreground hover:text-foreground hover:bg-primary/10 transition-all duration-300 cursor-pointer"
+                  aria-label={social.label}
+                >
+                  {social.icon}
+                </a>
               ))}
             </div>
           </div>
